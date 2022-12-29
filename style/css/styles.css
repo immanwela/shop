@@ -42,13 +42,18 @@ ul{
 .hf{
     text-align: center;
 }
+.hfc{
+    background-color: #1E792C;
+}
 .txcl{
     color: #fff;
 }
 .head{
-    background: url(/images/banner.png);
+    background: url("../../images/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 .pad{
     padding: 50px;
