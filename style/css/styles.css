@@ -194,7 +194,20 @@ section{
     box-sizing: border-box;
   }
   .bi-star-fill::before {
-    content: "";
+    content: "\f586"
   }
+
+  [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+  }
+
+
 
   
