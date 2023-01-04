@@ -20,3 +20,236 @@ $ali-cen: center;
 
  $dis-f: flex;
  $dis-ib: inline-block;
+
+
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.na{
+    padding-top: $root-form;
+    padding-bottom: $root-form;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    
+    .nav{
+        justify-content: center;
+        background-color: $co-dg;
+        padding: $root-form 0;
+    }
+    .menu{
+        align-items: center;
+        flex-wrap: inherit;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+}
+
+.logo{
+    font-size: $root-form-5;
+}
+
+ul{
+    gap: 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.ptr{
+    cursor: pointer;
+}
+.item{
+    color: rgba(0, 0, 0, 0.55);
+}
+.hf{
+    text-align: center;
+}
+.hfc{
+    background-color:$co-dg;
+}
+.txcl{
+    color: $co-lyt;
+}
+.bi-cart-fill::before{
+   content: "\f23d"; 
+}
+.head{
+    background: url("../../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.pad{
+    padding: 50px;
+}
+.cart{
+    border: 1px solid $co-lyt;
+    border-radius: $root-form-1;
+    font-size: $root-form-4;
+    padding: $root-form-2 $root-form-3; 
+}
+.cart-btn{
+    display: flex;
+    gap: 6px;
+}
+.badge{
+    border-radius: 20rem;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+p{
+    font-size: $root-form-5;
+}
+section{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding: 48px 0;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+}
+section{ 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 100%;
+    max-width: 318px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: $co-lyt;
+    background-clip: border-box;
+    border: 1px solid $co-form-g;
+    border-radius: 0.25rem;
+    margin-bottom: 3rem !important;
+}
+.card_image{
+    width:100%;
+    max-width: 450px;
+}
+.card_body{
+    padding: 1.5rem;
+    flex: 1 1 auto;
+}
+.text-center{
+    text-align: center !important;
+}
+.bold-text{
+    font-weight: bolder;
+    font-size: $root-form-5;
+    margin-top: 0;
+    margin-bottom: $root-form;
+    line-height: 1.2;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: $co-lg !important;
+  }
+  .text-decoration-line-through {
+    text-decoration: line-through !important;
+  }
+  h4{ font-weight: 300;}
+.card_footer{
+    padding: 0px 24px 24px 24px;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: $root-form-2 $root-form-3;
+    font-size: $root-form-4;
+    border-radius: $root-form-1;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-outline-dark{
+    color: $co-lyt;
+    background-color: $co-dr;
+    border-color: transparent;
+  }
+  .btn-outline-dark:hover {
+    color: $co-lyt;
+    background-color: $co-dg;
+    border-color: $co-db;
+    opacity: .9;
+  }
+  .bg-sale {
+    background-color: $co-dy;
+  }
+  .position-absolute {
+    position: absolute !important;
+  }
+  .badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    color: $co-lyt;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: $root-form-1;
+  }
+
+
+  .text-warning {
+    color: rgb(255, 193, 7);
+    opacity: 1;
+  }
+ 
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  .d-flex {
+    display: flex !important;
+  }
+  small, .small {
+    font-size: 20px;
+  }
+
+  *, ::before, ::after{
+    box-sizing: border-box;
+  }
+  .bi-star-fill::before {
+    content: "\f586"
+  }
+
+  [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+  }
+
+
+
+  
