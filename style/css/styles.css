@@ -36,6 +36,12 @@ ul{
     gap: 10px;
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
+.ptr{
+    cursor: pointer;
+}
 .item{
     color: rgba(0, 0, 0, 0.55);
 }
