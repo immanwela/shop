@@ -190,12 +190,12 @@ section{
     color: $co-lyt;
     background-color: $co-dr;
     border-color: transparent;
-  }
-  .btn-outline-dark:hover {
-    color: $co-lyt;
-    background-color: $co-dg;
-    border-color: $co-db;
-    opacity: .9;
+    .btn-outline-dark:hover{
+        color: $co-lyt;
+        background-color: $co-dg;
+        border-color: $co-db;
+        opacity: .9;
+    }
   }
   .bg-sale {
     background-color: $co-dy;
